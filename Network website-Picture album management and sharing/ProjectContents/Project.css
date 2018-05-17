@@ -1,0 +1,228 @@
+a{
+    text-decoration: none;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: true;
+}
+.welcome {
+    position: relative;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.my-friends,
+.upload-picture,
+.new-album,
+.signup,
+.login-page{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.loginError{
+    padding-left: 70px;
+    color: red;
+}
+.new-album-title,
+.signup-title,
+.login-title{
+    padding-left: 200px;
+    padding-bottom: 10px;
+}
+.h-margin{
+    margin-left: 205px;
+}
+.v-margin{
+    margin-top:20px;
+}
+.label-padding{
+    padding-left: 70px;
+}
+.highlight{
+    font-weight: 700;
+}
+.center{
+    text-align: center;
+}
+.btn-submit,
+.btn-clear{
+    width:120px;
+}
+.field-length {
+    width:240px;
+}
+.label-length{
+    width:200px;
+}
+.link-NewFriend,
+.link-NewAlbum{
+    margin-right: 100px;
+    margin-bottom: 10px;
+    float: right;
+}
+.album-save{
+    margin-left: 1030px;
+}
+.my-album{
+    width:1280px;
+    height:auto;
+    margin: auto;
+}
+.album-table{
+    height:300px;
+    width:100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.friend-table{
+    height:150px;
+    width:100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.friend-table-request .table,
+.friend-table .table,
+.album-table .table{
+    border-top: 1px solid #dddddd;
+}
+
+.album-table .table tr{
+    line-height: 25px;
+    height: 25px;
+}
+.add-friend-result{
+    width:400px;
+    height:auto;
+    
+}
+.add-friend-result p{
+    color:red;
+    word-wrap: break-word;
+}
+.add-friend{
+    margin-top: 20px;
+    
+}
+.float-left{
+    float:left;
+}
+.btn-request{
+    margin-left: 815px;
+}
+.request-list{
+    height:130px;
+    width:100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.my-pictures{
+    width:100%;
+    overflow-y: auto;
+}
+.picture-area {
+    width:60%;
+    float:left;
+    
+}
+.text-area{
+    width:30%;
+    float:left;
+    height:600px;
+}
+.comment-list{
+    height:60%;
+    margin-top: 50px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.glyphicon {
+    font-size: 40px;
+    color:blue;
+}
+.gly-filp-horizontal{
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror = 1);
+    -webkit-transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+.img-container {
+    position: relative;
+    height:400px;
+    text-align: center;
+    margin: auto;
+}
+.img-container img{
+    height:100%;
+    width:auto;
+    margin: auto;
+    display: block;
+}
+.img-container  a {
+    display: none;
+    padding: 0 10px;
+}
+
+.img-container:hover a {
+    display:inline;
+    text-align: center;
+    text-decoration: none !important;
+} 
+#actionList a:hover{
+    color:red;
+}
+.displayList{
+    display:inline;
+    text-align: center;
+    text-decoration: none !important;
+}
+.img-container img:hover {
+    opacity:0.5;
+}
+.picture-name {
+    text-align: center;
+}
+.thumbnail-list{
+    height: 106px;
+    width:75%;
+    margin: auto;
+    padding: 3px 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    overflow-x: visible;
+    background-color: #eeeeee;
+    margin-top:5px;
+}
+
+.thumbnail-list a {
+    height:106px;
+    width:auto;
+    display: inline-block;
+}
+.inselectedLink{
+   
+    padding: 0 3px;
+    opacity: 0.5;
+}.thumbnail-list img{
+    max-height: 100px;
+    width:auto;
+}
+.thumbnail-list a:hover,
+.selectedLink
+{
+    opacity: 1;
+    border: 3px solid blue;
+}
+.album-list{
+    width:70%;
+    margin: auto;
+}
+.important{
+    font-style: italic;
+    color:blue;
+}
